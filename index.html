@@ -1,41 +1,91 @@
 <!DOCTYPE HTML>
 <!-- COMMENT --> 
 <html lang="en" id="home">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>TEMPLATE</title>
-        <meta name="TEMPLATE" content="TEMPLATE">
-        <link rel="stylesheet" href="stylesheet.css" type="text/css">
-        <!-- LINK TO EXTERNAL JAVASCRIPT <script src="URL"></script> -->
-    </head>
-<!--------------------------------------------------------------------------------------NAV------------------------------------------------------------------------------------>
-<body>
 
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Loreanne Larbi Portfolio Website Home Page</title>
+            <meta name="MMDD209A1" content="MMDD209A1">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css">
+            <script src="/assets/js/script.js"></script>            
+        </head>
 
-    <div class="nav">
-        <ol>
-            <li><a href="1">1</a></li>
-            <li><a href="2">2</a></li>
-            <li><a href="3">3</a></li>
-            <li><a href="4">4</a></li>
-            <li><a href="5">5</a></li>
-        </ol>
-    </div>
+        <body>
 
-<!--------------------------------------------------------------------------------------ABOUT---------------------------------------------------------------------------------->
+            <!--------------------------------------------------------------------------------------MAIN---------------------------------------------------------------------------------->
+              
+            <!--------------------------------------------------------------------------------------NAV------------------------------------------------------------------------------------>
+            <!-- Responsive Nav --> 
+            <div class="nav">            
+            <!-- a hamburger menu is shown at all screen sizes. When clicked the navigation items are displayed-->                    
+                <ol id="homenav">
+                    <span class="open-slide">
+                        <a href="#" onclick="openSideMenu()">
+                        <!-- anything inside a link-->
+                            <svg width="30" height="30">
+                                <!-- svg makes loading faster-->
+                                <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>                    
+                                <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                                <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>                      
+                                
+                            </svg>
+                        </a>
+                    </span>   
 
-<h1>Header</h1>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/portfolio.html">Portfolio</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>                                
+                </ol>
+                    
+                <div id="side-menu" class="side-nav">
+                    <a herf="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/portfolio.html">Portfolio</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </div>
 
-<!--------------------------------------------------------------------------------------WORK----------------------------------------------------------------------------------->
+            </div>
 
-<!-------------------------------------------------------------------------------------CONTACT--------------------------------------------------------------------------------->
+            <div class="wrapper">   
 
-<!-------------------------------------------------------------------------------------MORE------------------------------------------------------------------------------------>
+                <div id="home" class="header-box">                
+                    <h1>Loreanne Design</h1>
+                </div>      
 
-<!-------------------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------------->
-    <div class="footer">
-        <h4>&copy; TEMPLATE </h4>
-    </div>
-</body>
+                <div id="profile" class="container">
+                
+                    <div class="box">
+                        <img src="assets/images/avatar.png" alt="a photo of Loreanne" id="profilepic">  
+                    </div>
+
+                    <div class="box">
+                        <p>
+                            My name is Loreanne, I am an an AR and Motion Designer.
+                            <br>                           
+                            This is <a href="pages/portfolio.html">what</a> I do and <a href="pages/about.html">how</a> I do it.
+                            <a href="pages/contact.html">reach out</a> lets make something cool.
+                        </p>  
+                    </div>
+                    
+                </div>                
+                          
+            </div>
+                
+            <!-------------------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------------->
+            <div class="footer">
+                <footer>
+                <h4>&copy;Loreanne Design</h4>
+                </footer>
+            </div>
+        </body>
+
 </html>
