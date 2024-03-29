@@ -1,0 +1,679 @@
+/*--------------------------------------------------------------------------------------C-S-S---------------------------------------------------------------------------------*/
+/* COMMENT /** { border: 1px solid white; } */
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------FORMAT--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------BODY-----------------------------------------------*/
+body {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+  }
+  
+html{
+    font-family:sans-serif;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+
+.wrapper{
+    margin: auto;
+    padding: 1% 5%;
+    max-width: 80vw;
+    transition: .6s all ease-in-out;
+    -webkit-animation-transition: .6s all ease-in-out;
+    -moz-transition: .6s all ease-in-out;
+}
+/*
+@media screen and (max-width: 768px){
+    .wrapper{
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
+
+  /* -----------------MOBILE---------------------*/
+
+@media screen and (min-width: 360px){}
+
+@media screen and (max-width: 601px){
+    .wrapper {
+        max-width: 500px;
+        margin: 0;
+        padding: 0;
+        
+    }
+}
+
+/* -----------------TABLET---------------------*/
+@media screen and (min-width: 601px){}
+@media screen and (max-width: 1280px){
+    .wrapper{
+        margin-left: auto;
+        margin-right: auto;
+}
+}
+
+/* -----------------DESKTOP---------------------*/
+@media screen and (min-width: 1280px){}
+@media screen and (max-width: 1920px){}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------TEXT-----------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* ------------------------------FONT-------------------------------*/
+
+/* Header --------------------------------------------------*/
+.orbitron-regular {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/* Subheader --------------------------------------------------*/
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+}
+/* Paragraph --------------------------------------------------*/
+.cutive-mono-regular {
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+p {
+font-family: "Cutive Mono", monospace;
+font-size: 1em;
+}
+
+/* Footer --------------------------------------------------*/
+.dotgothic16-regular {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h4 {
+    font-family: "DotGothic16", sans-serif;
+    font-size: .2em;
+    letter-spacing: .5em;
+    text-transform: uppercase;   
+    }
+/* -----------------MOBILE---------------------*/
+
+@media screen and (min-width: 360px){
+
+}
+
+@media screen and (max-width: 601px){
+    h1 {
+        display: inline;
+        padding: 3% 0;
+        line-height: 1;    
+    }
+
+    p {
+        margin:0;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------NAV-------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.nav{  
+    height: 10%;
+    text-align: center;  
+    font-family: "DotGothic16", sans-serif;
+    letter-spacing: .5em;
+    text-transform: uppercase;
+}
+
+.nav ol{
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav ol li{
+    vertical-align: center;
+    margin: 5px;
+    display: inline-block;
+}
+
+.nav ol li a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: .3s all ease;
+}
+
+.nav ol li a:hover{
+    color: #FF66C4;
+}
+
+  
+/*Side Menu --------------------------------------------------*/
+
+#side-menu{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    z-index: 100; /* layer position*/
+    border-left: 5px solid #222;
+    background-color: rgb(255, 255, 255);
+    transition: .6 sec all ease-in-out;
+    overflow-x: hidden;
+    width: 0;
+
+}
+
+#side-menu li{
+    display: block;
+    margin: 10px;
+    text-align: left;
+}
+
+#side-menu a{
+    font-size: .90em;
+    padding-left: 5%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#side-menu li a:hover{
+    color: #FF66C4;
+}
+
+#btn-close :hover{
+    font-weight: 900;
+    color: #FF66C4
+}
+
+.nav a{
+    color: black;
+}
+
+.nav span svg{
+    margin: 0px;   
+
+}
+/* ------------------------------MOBILE-------------------------------*/
+
+@media screen and (min-width:100px){
+    .nav ol li {
+        display:none;  
+    }
+    
+}
+
+@media screen and (max-width:425px){
+    .nav ol li {
+        display:none;  
+    }
+    
+}
+/* ------------------------------DESKTOP-------------------------------*/
+
+@media screen and (max-width: 1080px){
+    svg{
+        left: 0;
+        right: 20px;
+    }
+
+    a.btn-close{
+        left: 0;
+}
+}
+
+@media screen and (min-width: 769px){
+    .nav span svg{
+        display: none;
+    }
+
+}
+
+/* ------------------------------TABLET-------------------------------*/
+
+/* Change when screen size changes */
+@media screen and (max-width: 768px){
+    .nav {
+        height: 30px;
+        border-bottom:0;
+        border-top: 0;
+        text-decoration: none;   
+    }
+
+    .nav span svg{
+            left: 40%;
+            text-align: left;
+        }
+}
+
+@media screen and (min-width: 426px){
+    .nav ol li{
+        display: inline-block;
+        position: static; /* Position the navigation fixed at the top */
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------FLEX---------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+div.header-box{
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0;
+    margin: 5%;
+
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.container div{
+    padding: 1% 3%;
+    margin: 10px;
+}
+
+.box{
+    font-size: 1em;
+    display: inline-block;
+    padding: 5%;
+}
+/* -----------------MOBILE---------------------*/
+
+@media screen and (max-width: 601px){
+    
+    .header-box {
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .container{
+        justify-content: center;
+    }
+
+    div.box {
+        display: inline;
+        max-width: 500px;      
+    }
+    
+    img#profilepic{
+        width: 200px;
+    }
+}
+
+/* -----------------TABLET---------------------*/
+@media screen and (max-width: 1080px){
+    .container{
+        min-height: 200px;
+    }     
+}
+/* -----------------DESKTOP---------------------*/
+  
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------FOOTER-----------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer { 
+    position: fixed; /* Position the footer relative to the viewport */
+    bottom: 0; /* Align the footer to the bottom */
+    left: 50%; /* Center the footer horizontally */
+    transform: translateX(-50%); /* Adjust horizontally to center */
+    width: 100%; /* Ensure footer spans the entire width */
+    text-align: center; /* Center-align the content inside the footer */
+    
+}
+div.footer{
+    margin: 0% 0%;   
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------INDEX-----------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+a {
+    font-weight: bolder;
+    color: #fff;
+}
+
+a:hover{
+    color: #FF66C4;
+    text-transform: uppercase;
+}
+
+div#profile.container{
+    border: 1px #FF66C4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img{
+    max-width: 200px;
+    margin: 1%;
+}
+
+div#home.header-box{
+    /* *********************************TITLE ANIMATION********************************* */ 
+  animation-name: loreannedesign-animation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  position: relative;
+}
+
+  @keyframes loreannedesign-animation{
+    0% {
+        left:0%;
+        transform: translateX(-100%)
+    }
+
+    100% {
+        left: 100%;
+        transform: translateX(100%)
+    }
+    
+  }
+
+
+/* -----------------MOBILE---------------------*/
+@media screen and (min-width: 100px){
+
+}
+
+@media screen and (max-width: 601px){
+
+    div.container{
+        display: inline;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    
+    div#profile.container{
+        flex-direction: column; 
+        max-width: 400px;       
+    }
+
+    div#intro{
+        text-align: center;
+    }
+
+    div.box{
+        padding: 0;
+        margin: 0;
+    }
+}
+/* -----------------TABLET---------------------*/
+
+/* -----------------DESKTOP---------------------*/
+
+/* COMMENT /**/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------ABOUT-----------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+div#about.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 1px #FF66C4;
+}
+
+div#skills.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, .5fr) 5.fr;
+    grid-template-rows: .5fr 1fr ;
+    grid-column-gap: 6px;
+    grid-row-gap: 9px;
+    }
+    div#hardskills{ grid-area: 2 / 1 / 3 / 2; }
+    div#softskills{ grid-area: 2 / 2 / 3 / 3; }
+    div#moreskills{ grid-area: 2 / 3 / 3 / 4; }
+
+div#hardskills, div#softskills, div#moreskills{
+    font-family: "Cutive Mono", monospace;
+    text-decoration: none;
+    font-size: 100%;
+    max-width: fit-content;
+}
+
+ div#software.grid-container, div#code.grid-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, .5fr) 5.fr;
+    grid-template-rows: .5fr repeat(2, 1fr);
+    grid-column-gap: 6px;
+    grid-row-gap: 9px;
+}
+
+div#about-title.box{
+    justify-self: center; 
+    align-self: center; 
+    font-size: unset;
+}
+
+h2#about-title{
+    max-height: 70%;
+    text-align: center;
+}
+div#about-title {
+    grid-area: 1 / 1 / 2 / 4; }
+div#ai{ 
+    grid-area: 2 / 1 / 3 / 2; }
+div#aero{ 
+    grid-area: 2 / 2 / 3 / 3; } 
+div#figma  { 
+    grid-area: 2 / 3 / 3 / 4; }
+div#blender{ 
+    grid-area: 3 / 2 / 4 / 3; }
+div#canva{ 
+    grid-area: 3 / 3 / 4 / 4; }
+
+div#html { 
+    grid-area: 2 / 1 / 3 / 2; }
+div#css { 
+    grid-area: 2 / 2 / 3 / 3; }
+div#js { 
+    grid-area: 2 / 3 / 3 / 4; }
+div#node { 
+    grid-area: 3 / 1 / 4 / 2; }
+div#codepene { 
+    grid-area: 3 / 2 / 4 / 3; }
+
+ /* -----------------MOBILE---------------------*/
+
+ @media screen and (min-width: 360px){}
+
+ @media screen and (max-width: 601px){
+
+ }
+ 
+ /* -----------------TABLET---------------------*/
+ @media screen and (min-width: 601px){}
+ @media screen and (max-width: 1280px){
+
+ }
+ 
+ /* -----------------DESKTOP---------------------*/
+ @media screen and (min-width: 1280px){
+ }
+ @media screen and (max-width: 1920px){}
+ 
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------PORTFOLIO----------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+div#portfolio.container {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.image-box{
+    display: flex;
+    height: 20%px;
+    justify-content: center;
+    align-items: center;
+}
+
+div.text-box{
+    text-align: center;
+}
+
+.portfolio-placeholder{
+    max-width:100%;
+
+}
+
+.portfolio-item-box{
+    border: solid 1px #FF66C4 ;
+    justify-content: center;
+    margin: auto;
+    width: 20%;
+    height: 30%;
+}
+
+/* -----------------MOBILE---------------------*/
+
+@media screen and (min-width: 360px){
+
+}
+
+@media screen and (max-width: 601px){
+    
+div#portfolio.container{
+    flex-direction: column;
+    align-items: center ;    
+}
+
+div#portfolio.box{
+    align-self: center;
+}
+}
+
+/*--------------------------------------------------------------------------------------PORTFOLIO1----------------------------------------------------------------------------------*/
+
+div#portfolio-page.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.portfolio-box{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+img.portfolio-placeholder2{
+    align-self: center;
+    margin: auto;
+}
+
+div#portfolio-text.box{
+    align-self: center;
+}
+
+/*--------------------------------------------------------------------------------------PORTFOLIO2----------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------PORTFOLIO3----------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------CONTACT--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+div#socials.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+legend{
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 2em;
+    margin: auto;    
+}
+
+label{
+    font-family:"Cutive Mono", monospace;
+}
+
+div#contact.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+input{
+    font-family:"Cutive Mono", monospace;
+    font-weight: bold;
+}
+
+input, select, textarea {    
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=radio] {
+    width: 2%;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+input[type=submit] {
+    font-family:"Cutive Mono", monospace;
+    background-color:#FF66C4 ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+fieldset {
+    margin: auto;
+    border: 2px solid #FF66C4;
+    transition: .3s all ease-in;
+}
+
+textarea{
+    max-height: max-content;
+}

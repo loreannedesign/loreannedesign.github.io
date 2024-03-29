@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<!-- COMMENT --> 
+<html lang="en" id="Contact">
+
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Loreanne Larbi Portfolio Website Contact Page</title>
+            <meta name="MMDD209A1" content="MMDD209A1">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="/assets/css/stylesheet.css" type="text/css">
+            <script src="/assets/js/script.js"></script>            
+        </head>
+
+        <body>
+
+            <!--------------------------------------------------------------------------------------MAIN---------------------------------------------------------------------------------->
+              
+            <!--------------------------------------------------------------------------------------NAV------------------------------------------------------------------------------------>
+            <!-- Responsive Nav --> 
+            <div class="nav">            
+            <!-- a hamburger menu is shown at all screen sizes. When clicked the navigation items are displayed-->                    
+                <ol>
+                    <span class="open-slide">
+                        <a href="#" onclick="openSideMenu()">
+                        <!-- anything inside a link-->
+                            <svg width="30" height="30">
+                                <!-- svg makes loading faster-->
+                                <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>                    
+                                <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                                <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>                      
+                                
+                            </svg>
+                        </a>
+                    </span>   
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>                                
+                </ol>
+                    
+                <div id="side-menu" class="side-nav">
+                    <a herf="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+
+            </div>
+
+            <div class="wrapper">  
+                
+                <div class="header-box">                
+                    <h1>Contact</h1>
+                </div> 
+
+                <div id="contact" class="container">    
+                    <div id="socials" class="box">
+                        <div id="linkedin" class="box">
+                            <a href="https://www.linkedin.com/in/loreanne-l-3320a071">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PGcgdHJhbnNmb3JtPSJzY2FsZSg1LjMzMzMzLDUuMzMzMzMpIj48cGF0aCBkPSJNNDIsMzdjMCwyLjc2MiAtMi4yMzgsNSAtNSw1aC0yNmMtMi43NjEsMCAtNSwtMi4yMzggLTUsLTV2LTI2YzAsLTIuNzYyIDIuMjM5LC01IDUsLTVoMjZjMi43NjIsMCA1LDIuMjM4IDUsNXoiIGZpbGw9IiNmZjY2YzQiPjwvcGF0aD48cGF0aCBkPSJNMTIsMTloNXYxN2gtNXpNMTQuNDg1LDE3aC0wLjAyOGMtMS40OTIsMCAtMi40NTcsLTEuMTEyIC0yLjQ1NywtMi41MDFjMCwtMS40MTkgMC45OTUsLTIuNDk5IDIuNTE0LC0yLjQ5OWMxLjUyMSwwIDIuNDU4LDEuMDggMi40ODYsMi40OTljMCwxLjM4OCAtMC45NjUsMi41MDEgLTIuNTE1LDIuNTAxek0zNiwzNmgtNXYtOS4wOTljMCwtMi4xOTggLTEuMjI1LC0zLjY5OCAtMy4xOTIsLTMuNjk4Yy0xLjUwMSwwIC0yLjMxMywxLjAxMiAtMi43MDcsMS45OWMtMC4xNDQsMC4zNSAtMC4xMDEsMS4zMTggLTAuMTAxLDEuODA3djloLTV2LTE3aDV2Mi42MTZjMC43MjEsLTEuMTE2IDEuODUsLTIuNjE2IDQuNzM4LC0yLjYxNmMzLjU3OCwwIDYuMjYxLDIuMjUgNi4yNjEsNy4yNzRsMC4wMDEsOS43MjZ6IiBmaWxsPSIjZmZmZmZmIj48L3BhdGg+PC9nPjwvZz4KPC9zdmc+"/>
+                            </a>
+                        </div>
+                        <div id="instagram" class="box">
+                            <a href="https://www.instagram.com/loreanne.design">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0iI2ZmNjZjNCIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PGcgdHJhbnNmb3JtPSJzY2FsZSg0LDQpIj48cGF0aCBkPSJNMjEuNTgwMDgsN2MtOC4wMzksMCAtMTQuNTgwMDgsNi41NDQ5NCAtMTQuNTgwMDgsMTQuNTg1OTR2MjAuODMyMDNjMCw4LjA0IDYuNTQ0OTQsMTQuNTgyMDMgMTQuNTg1OTQsMTQuNTgyMDNoMjAuODMyMDNjOC4wNCwwIDE0LjU4MjAzLC02LjU0NDk0IDE0LjU4MjAzLC0xNC41ODU5NHYtMjAuODMzOThjMCwtOC4wMzkgLTYuNTQ0OTQsLTE0LjU4MDA4IC0xNC41ODU5NCwtMTQuNTgwMDh6TTQ3LDE1YzEuMTA0LDAgMiwwLjg5NiAyLDJjMCwxLjEwNCAtMC44OTYsMiAtMiwyYy0xLjEwNCwwIC0yLC0wLjg5NiAtMiwtMmMwLC0xLjEwNCAwLjg5NiwtMiAyLC0yek0zMiwxOWM3LjE3LDAgMTMsNS44MyAxMywxM2MwLDcuMTcgLTUuODMxLDEzIC0xMywxM2MtNy4xNywwIC0xMywtNS44MzEgLTEzLC0xM2MwLC03LjE2OSA1LjgzLC0xMyAxMywtMTN6TTMyLDIzYy00Ljk3MSwwIC05LDQuMDI5IC05LDljMCw0Ljk3MSA0LjAyOSw5IDksOWM0Ljk3MSwwIDksLTQuMDI5IDksLTljMCwtNC45NzEgLTQuMDI5LC05IC05LC05eiI+PC9wYXRoPjwvZz48L2c+Cjwvc3ZnPg=="/>
+                            </a>
+                        </div>
+                        <div id="vimeo" class="box">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCwwLDI1NiwyNTYiCnN0eWxlPSJmaWxsOiMwMDAwMDA7Ij4KPGcgZmlsbD0iI2ZmNjZjNCIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PGcgdHJhbnNmb3JtPSJzY2FsZSg1LjMzMzMzLDUuMzMzMzMpIj48cGF0aCBkPSJNNDUsMTQuM2MtMC4yLDQuMSAtMyw5LjYgLTguNiwxNi42Yy01LjcsNy40IC0xMC41LDExIC0xNC41LDExYy0yLjQsMCAtNC41LC0yLjIgLTYuMiwtNi43Yy0xLjEsLTQuMSAtMi4zLC04LjIgLTMuNCwtMTIuM2MtMS4zLC00LjUgLTIuNiwtNi43IC00LC02LjdjLTAuMywwIC0xLjQsMC41IC0zLjMsMS44bC0yLC0yLjNjMi4xLC0xLjggNCwtMy4xIDYsLTQuOWMyLjgsLTIuNCA0LjgsLTMuNiA2LjIsLTMuN2MzLjMsLTAuMyA1LjMsMS45IDYsNi42YzAuOCw1LjEgMS41LDcuOCAxLjgsOWMwLjksNC4yIDIsNi40IDMuMSw2LjRjMC45LDAgMi4yLC0xLjQgNCwtNC4xYzEuOCwtMi44IDIuNywtNC44IDIuOCwtNi4zYzAuMywtMi40IC0wLjcsLTMuNiAtMi44LC0zLjZjLTEsMCAtMi4xLDAuNSAtMy4yLDAuOWMyLjEsLTYuNyA2LjEsLTEwLjIgMTEuOSwtMTBjNC40LDAuMSA2LjQsMi45IDYuMiw4LjN6Ij48L3BhdGg+PC9nPjwvZz4KPC9zdmc+"/>
+                        </div>
+                    </div>
+
+                    <div id="inquiry" class="box"> 
+
+                        <form method="post" action="php/handeler.php"><!-- submit data provided to linked file-->
+                           
+                            <fieldset>
+                                <legend>Personal Details</legend>
+                                <label for="first_name">First Name:</label>
+                                <br>
+                                <input type="text" id="first_name" name="fname" placeholder="Your name.." required>
+                                <br>
+                                <label for="last_name">Last Name:</label>
+                                <br>
+                                <input type="text" id="last_name" name="lname"  placeholder="Your last name..">
+                                <br>
+                                <label for="e_mail">Email:</label>
+                                <br>
+                                <input type="email" id="e_mail" name="email"placeholder="Your E-mail" required>
+                                <br>
+                                <label for="phone_num">Phone Number:</label>
+                                <br>
+                                <input type="tel" id="phone_num" name="tel" placeholder="(123)456-789" >
+                                <br>                                   
+                                <label for="subject">Subject:</label>
+                                <br>
+                                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                                <br>
+                                <input type="submit">
+
+                            </fieldset>
+
+                        </form>                        
+                                              
+                    </div> 
+                     
+                    
+                                
+                </div>
+                
+            </div>
+                
+            <!-------------------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------------->
+            <div class="footer">
+                <footer>
+                <h4>&copy;Loreanne Design</h4>
+                </footer>
+            </div>
+        </body>
+
+</html>

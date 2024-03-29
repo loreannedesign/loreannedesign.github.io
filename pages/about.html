@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!-- COMMENT --> 
+<html lang="en" id="about">
+
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>about Loreanne Larbi Portfolio Website about</title>
+            <meta name="MMDD209A1" content="MMDD209A1" type="text/html">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../assets/css/stylesheet.css" type="text/css">
+            <script src="/assets/js/script.js"></script>            
+        </head>
+
+        <body>
+
+            <!--------------------------------------------------------------------------------------MAIN---------------------------------------------------------------------------------->
+              
+            <!--------------------------------------------------------------------------------------NAV------------------------------------------------------------------------------------>
+            <!-- Responsive Nav --> 
+            <div class="nav">            
+            <!-- a hamburger menu is shown at all screen sizes. When clicked the navigation items are displayed-->                    
+                <ol>
+                    <span class="open-slide">
+                        <a href="#" onclick="openSideMenu()">
+                        <!-- anything inside a link-->
+                            <svg width="30" height="30">
+                                <!-- svg makes loading faster-->
+                                <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>                    
+                                <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                                <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>                      
+                                
+                            </svg>
+                        </a>
+                    </span>   
+
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>                                
+                </ol>
+                    
+                <div id="side-menu" class="side-nav">
+                    <a herf="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+
+            </div>
+
+            <div class="wrapper">  
+                
+                <div class="header-box">                
+                        <h1>About</h1>
+                    </div> 
+
+                <div id="about" class="container">   
+                    
+                    <div id="skills" class="grid-container">
+                        <div id="about-title" class="box">
+                            <h2>Skills</h2>
+                        </div>
+         
+                        <div id="hardskills">
+                                <li>Animation</li>
+                                <li>3D Modeling</li>
+                                <li>User Experience Design</li>
+                        </div>                        
+                        <div id="softskills">
+                                <li>Story Telling</li>
+                                <li>Story Boarding</li> 
+                                <li>Organization</li>    
+                        </div>
+                        <div id="moreskills">
+                                <li>Problem Solving</li>                        
+                                <li>Creative Thinking</li>
+                                <li>Colaboration</li>
+                        </div>                                                       
+                        
+                    </div>                
+                     
+
+                    <div id="software" class="grid-container">     
+                        <div id="about-title" class="box">
+                            <h2 id="about-title">Software</h2>
+                        </div>
+                        
+                        <div id="ae" class="box">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNiMzg4ZmYiIGQ9Ik02LDEwYzAtMi4yMDksMS43OTEtNCw0LTRoMjhjMi4yMDksMCw0LDEuNzkxLDQsNHYyOGMwLDIuMjA5LTEuNzkxLDQtNCw0SDEwYy0yLjIwOSwwLTQtMS43OTEtNC00IFYxMHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMTcwYjQwIiBkPSJNOSw5djMwaDMwVjlIOXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjYjM4OGZmIiBkPSJNMjEuMTgzIDI3Ljk2NWgtNC41NTVsLS44NjYgMi44NDZIMTNMMTcuNjk0IDE3aDIuNDA3bDQuNzE5IDEzLjgxaC0yLjc2MkwyMS4xODMgMjcuOTY1ek0xNy4zMyAyNS42NmgzLjE1MmwtMS41ODQtNS4xN0wxNy4zMyAyNS42NnpNMzAuMTQ2IDMxYy0uNzI4IDAtMS4zNzktLjEzLTEuOTUzLS4zODktLjU3NS0uMjU5LTEuMDYyLS42MTQtMS40NjQtMS4wNjMtLjQwMi0uNDQ5LS43MDctLjk3NS0uOTE4LTEuNTc5LS4yMS0uNjA0LS4zMTYtMS4yNS0uMzE2LTEuOTR2LS4zN2MwLS43NzguMTAzLTEuNDkxLjMwOC0yLjEzOS4yMDQtLjY0OC40OTYtMS4yMDYuODc1LTEuNjc0LjM3Ny0uNDY4LjgzNy0uODMzIDEuMzc2LTEuMDk2LjU0LS4yNjIgMS4xNDUtLjM5NCAxLjgxNC0uMzk0LjY3NSAwIDEuMjcuMTIyIDEuNzg0LjM2NS41MTQuMjQzLjk0NS41ODUgMS4yOTUgMS4wMjUuMzQ5LjQzOS42MTIuOTY5Ljc4OCAxLjU4OVMzNCAyNC42NDUgMzQgMjUuNDA0djEuMTY3aC01Ljk2NmMuMDQuMzM1LjEyMy42MzkuMjQ3LjkxLjEyNC4yNzIuMjgzLjUwNC40NzYuNjk3cy40Mi4zNDMuNjc5LjQ1MWMuMjYuMTA4LjU1Mi4xNjEuODc1LjE2MS40NTYgMCAuODc4LS4wOTMgMS4yNjQtLjI4LjM4Ny0uMTg2LjcxOS0uNDc2Ljk5Ni0uODY4bDEuMjMgMS41MDhjLS4xNS4yMzQtLjMzOC40NjItLjU2My42ODMtLjIyNS4yMjEtLjQ5MS40MTktLjc5Ny41OTMtLjMwNi4xNzQtLjY1LjMxMy0xLjAzNS40MTdDMzEuMDIyIDMwLjk0OCAzMC42MDMgMzEgMzAuMTQ2IDMxek0yOS44NjEgMjIuNTc3Yy0uMjcyIDAtLjUwOS4wNTItLjcxNS4xNTctLjIwNS4xMDQtLjM4MS4yNS0uNTI4LjQzNi0uMTQ3LjE4Ni0uMjY3LjQwOS0uMzU5LjY2OS0uMDkyLjI1OS0uMTU4LjU0Ny0uMTk4Ljg2M2gzLjQ4MXYtLjIxOGMtLjAwNi0uMjcyLS4wNDItLjUyNS0uMTA5LS43NTktLjA2Ni0uMjM0LS4xNjctLjQzNi0uMzAzLS42MDctLjEzNi0uMTcxLS4zMDktLjMwMy0uNTE5LS4zOThDMzAuMzk4IDIyLjYyNSAzMC4xNDkgMjIuNTc3IDI5Ljg2MSAyMi41Nzd6Ij48L3BhdGg+Cjwvc3ZnPg=="/>
+                        </div>
+    
+                        <div id="ai" class="box">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNGRjU3MjIiIGQ9Ik02LDEwYzAtMi4yMDksMS43OTEtNCw0LTRoMjhjMi4yMDksMCw0LDEuNzkxLDQsNHYyOGMwLDIuMjA5LTEuNzkxLDQtNCw0SDEwYy0yLjIwOSwwLTQtMS43OTEtNC00VjEweiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMxQzA4MDIiIGQ9Ik05LDl2MzBoMzBWOUg5eiBNMjMuNjkxLDMxbC0wLjc2Mi0yLjkxaC0zLjkxNkwxOC4yNTIsMzFoLTMuMDM3bDQuNDQzLTE0LjIxOWgyLjYyN0wyNi43NTgsMzFIMjMuNjkxeiBNMzAuODUsMzFoLTIuNzczVjIwLjQzNGgyLjc3M1YzMXogTTMwLjU1MiwxOC43NTRjLTAuMjcxLDAuMjgtMC42MzYsMC40Mi0xLjA5OSwwLjQycy0wLjgyOC0wLjE0LTEuMDk5LTAuNDJzLTAuNDA1LTAuNjMyLTAuNDA1LTEuMDU1YzAtMC40MywwLjEzNy0wLjc4MSwwLjQxLTEuMDU1czAuNjM5LTAuNDEsMS4wOTQtMC40MXMwLjgyLDAuMTM3LDEuMDk0LDAuNDFzMC40MSwwLjYyNSwwLjQxLDEuMDU1QzMwLjk1NywxOC4xMjIsMzAuODIyLDE4LjQ3NCwzMC41NTIsMTguNzU0eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMxQzA4MDIiIGQ9Ik0xOS42MzkgMjUuNjk3TDIyLjI5NSAyNS42OTcgMjAuOTY3IDIwLjYyOXoiPjwvcGF0aD4KPC9zdmc+"/>
+                        </div>
+    
+                        <div id="aero" class="box">
+                            <a href="https://commons.wikimedia.org/wiki/File:Adobe_Aero_icon_(2021).svg#/media/File:Adobe_Aero_icon_(2021).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Adobe_Aero_icon_%282021%29.svg" alt="Adobe Aero icon (2021).svg" width="50" height="50"></a></p>
+                        </div>
+    
+                        <div id="figma" class="box">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
+                                <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7l0,0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7l0,0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7l0,0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7l0,0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+                                </svg>
+                        </div>
+    
+                        <div id="blender" class="box">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiMwMTU3OUIiIGQ9Ik0zNC45MzIsMjIuNDc4QzMzLjc2OSwyMS41NiwzMi4yMDYsMjEuMDAxLDMwLjUsMjFjLTEuNzA2LDAuMDAxLTMuMjcsMC41Ni00LjQzMywxLjQ3OCBjLTEuMTg0LDAuOTM1LTEuOTY5LDIuMjUyLTIuMDU5LDMuNzQ3Yy0wLjA5MSwxLjUzNiwwLjU3LDIuOTY1LDEuNzMyLDQuMDIzQzI2LjkyNSwzMS4zMjQsMjguNjEzLDMyLDMwLjUwMSwzMiBjMS44ODcsMCwzLjU3NC0wLjY3Niw0Ljc1Ny0xLjc1M2MxLjE2Mi0xLjA1NywxLjgyNC0yLjQ4NiwxLjczNC00LjAyM0MzNi45MDIsMjQuNzMxLDM2LjExNiwyMy40MTMsMzQuOTMyLDIyLjQ3OHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkY2RDAwIiBkPSJNNDUuODcxLDI1LjkzMmMtMC4yNTktMS44MjMtMC44OTEtMy41MzUtMS44NjEtNS4wOTVjLTAuODkxLTEuNDMzLTIuMDM1LTIuNjg4LTMuMzk3LTMuNzQ1bDAuMDAyLTAuMDAyIGwtMC4wMzctMC4wMTJjLTAuMDI4LTAuMDI1LTAuMDUtMC4wNTQtMC4wNzktMC4wNzhMMjYuMjQ5LDYuNDM4Yy0wLjg2LTAuNjg5LTIuMTItMC41NTItMi44MTEsMC4zMTMgYy0wLjY5LDAuODYyLTAuNTUxLDIuMTIxLDAuMzEzLDIuODExTDI5LjczOSwxNEgxMC41QzkuMTI1LDE0LDgsMTUuMTI1LDgsMTYuNVM5LjEyNSwxOSwxMC41LDE5aDcuMTU0TDIuODczLDMxLjYwMiBjLTEuMDQ4LDAuODk4LTEuMTcsMi40NzgtMC4yNzEsMy41MjVDMy4wOTcsMzUuNzA0LDMuNzk3LDM2LDQuNTAxLDM2YzAuNTc2LDAsMS4xNTQtMC4xOTgsMS42MjYtMC42MDJsOC45NTQtNy42NzUgYy0wLjAyMiwwLjgwNy0wLjAzOSwxLjUzOC0wLjAzNSwxLjc2MUMxNS4wNDYsMzMsMTksNDIsMzAuNjgyLDQyYzguMzE4LDAsMTUuMjgtNSwxNS4yOC0xMy4yNjEgQzQ2LjAzNCwyNy44MDUsNDYuMDAzLDI2Ljg2Nyw0NS44NzEsMjUuOTMyeiBNMzkuNTI1LDI5LjE1M2MtMC40MDEsMS4wODctMS4wNSwyLjEwNC0xLjkzNSwyLjk5MiBjLTEuODEsMS44Mi00LjM0MywyLjg1LTcuMDg4LDIuODU0Yy0yLjc0NSwwLjAwNS01LjI4LTEuMDE3LTcuMDkxLTIuODMyYy0wLjg4NS0wLjg4NS0xLjUzNS0xLjkwMS0xLjkzNy0yLjk4NiBjLTAuMzkyLTEuMDY1LTAuNTQ1LTIuMTk1LTAuNDQ0LTMuMzM1YzAuMDk4LTEuMTE2LDAuNDMyLTIuMTc5LDAuOTcxLTMuMTQxYzAuNTI5LTAuOTQ2LDEuMjU3LTEuOCwyLjE1NC0yLjUyNCBjMS43Ni0xLjQxNCwzLjk5OS0yLjE3OSw2LjM0NS0yLjE4MmMyLjM0Ni0wLjAwMyw0LjU4NCwwLjc1Niw2LjM0NSwyLjE2NGMwLjg5NywwLjcyLDEuNjI0LDEuNTcxLDIuMTUyLDIuNTE1IGMwLjUzOSwwLjk2MSwwLjg3NCwyLjAyMywwLjk3MywzLjEzOEM0MC4wNywyNi45NTgsMzkuOTE4LDI4LjA4NywzOS41MjUsMjkuMTUzeiI+PC9wYXRoPgo8L3N2Zz4="/>
+                        </div>
+    
+                        <div id="canva" class="box">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxsaW5lYXJHcmFkaWVudCBpZD0iTjhhTUotalo0LWNmbGRacnNudmhkYV9pV3c4M1BWY0JwTHdfZ3IxIiB4MT0iMzguMjYzIiB4Mj0iMTAuMTUiIHkxPSIxMzczLjYyIiB5Mj0iMTM0Mi42MTUiIGdyYWRpZW50VHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtMTMzMy44OSkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM4MjNhZjMiPjwvc3RvcD48c3RvcCBvZmZzZXQ9Ii4zNiIgc3RvcC1jb2xvcj0iIzRiNjZlMSI+PC9zdG9wPjxzdG9wIG9mZnNldD0iLjkwNiIgc3RvcC1jb2xvcj0iIzAxZjFjNCI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZmlsbD0idXJsKCNOOGFNSi1qWjQtY2ZsZFpyc252aGRhX2lXdzgzUFZjQnBMd19ncjEpIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00NCwyNGMwLDExLjA0NS04Ljk1NSwyMC0yMCwyMFM0LDM1LjA0NSw0LDI0CVMxMi45NTUsNCwyNCw0UzQ0LDEyLjk1NSw0NCwyNHoiIGNsaXAtcnVsZT0iZXZlbm9kZCI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI5LjE5NCwyNi45NjJjLTAuODM1LDAuOTE1LTIuMDA3LDEuMzc4LTIuNTU2LDEuMzc4CWMtMC42MzUsMC0wLjk4Mi0wLjM4OS0xLjA1My0wLjk3NGMtMC4wMjQtMC4yMjQtMC4wMTYtMC40NSwwLjAyNC0wLjY3M2MwLjIxLTEuMzEsMC42OTItMi4xMjQsMC42NjItMi4zNzIJYy0wLjAwOS0wLjA3MS0wLjA0OS0wLjEwNi0wLjEwMS0wLjEwNmMtMC40MDYsMC0xLjgzLDEuNDctMi4wNDYsMi40NDNsLTAuMTY4LDAuNzc5Yy0wLjExLDAuNTQ5LTAuNjQ4LDAuOTAyLTEuMDE4LDAuOTAyCWMtMC4xNzcsMC0wLjMxMS0wLjA4OC0wLjMzNC0wLjI4M2MtMC4wMDctMC4wODksMC0wLjE3OCwwLjAyMS0wLjI2NmwwLjA3OS0wLjQxYy0wLjc2OCwwLjU3NC0xLjU5NiwwLjk2Mi0xLjk4NCwwLjk2MgljLTAuNTMsMC0wLjgyNy0wLjI4My0wLjkzMy0wLjcwOWMtMC4zNSwwLjQ2MS0wLjgxMywwLjcwOS0xLjMwNiwwLjcwOWMtMC42MywwLTEuMjM3LTAuNDE3LTEuNTI4LTEuMDM0CWMtMC40MTUsMC40NjYtMC45MDcsMC45MjItMS40OTYsMS4yOTljLTAuODY5LDAuNTUtMS44MzYsMC45OTItMi45ODIsMC45OTJjLTEuMDU4LDAtMS45NTYtMC41NjYtMi40NTMtMS4wMjYJYy0wLjczNy0wLjY5LTEuMTI2LTEuNzE4LTEuMjQxLTIuNjU2Yy0wLjM2Mi0yLjk1NywxLjQzOC02LjgzNCw0LjIyNy04LjUzM2MwLjY0LTAuMzksMS4zNTctMC41ODQsMi4wMDgtMC41ODQJYzEuMzQsMCwyLjM0LDAuOTU4LDIuNDgsMi4xMDRjMC4xMjYsMS4wMzItMC4yODYsMS45MjQtMS40MzEsMi41MDFjLTAuNTg0LDAuMjk2LTAuODc0LDAuMjgyLTAuOTY1LDAuMTQxCWMtMC4wNjEtMC4wOTQtMC4wMjYtMC4yNTQsMC4wOTEtMC4zNTFjMS4wNzYtMC44OTksMS4wOTYtMS42MzcsMC45Ny0yLjY3N2MtMC4wODItMC42NjktMC41MjItMS4wOTgtMS4wMTYtMS4wOTgJYy0yLjExNSwwLTUuMTQ5LDQuNzQ1LTQuNzI3LDguMTk3YzAuMTY1LDEuMzQ2LDAuOTksMi45MDQsMi42ODIsMi45MDRjMC41NjQsMCwxLjE2Mi0wLjE1OSwxLjY5NC0wLjQyNQljMC45MjgtMC40NzQsMS40NTMtMC44NSwxLjk4LTEuNDY0Yy0wLjEzLTEuNTk2LDEuMjQtMy42LDMuMjc4LTMuNmMwLjg4MiwwLDEuNjEyLDAuMzU0LDEuNjk4LDEuMDYyCWMwLjEwOCwwLjg4NS0wLjY0NiwxLjA2Mi0wLjkyOCwxLjA2MmMtMC4yNDcsMC0wLjY0My0wLjA3MS0wLjY3MS0wLjMwMWMtMC4wMy0wLjI0OCwwLjUzNC0wLjEwNiwwLjQ2NC0wLjY3MwljLTAuMDQzLTAuMzU0LTAuNDExLTAuNDc4LTAuNzYzLTAuNDc4Yy0xLjI2OSwwLTEuOTcsMS43Ny0xLjgzNSwyLjg2OWMwLjA2MSwwLjQ5NiwwLjMxNSwwLjk5MSwwLjc3NCwwLjk5MQljMC4zNywwLDAuOTA0LTAuNTMxLDEuMTA5LTEuMzFjMC4xMy0wLjUzMSwwLjYzMi0wLjg4NSwxLjAwMy0wLjg4NWMwLjE5NCwwLDAuMzI4LDAuMDg4LDAuMzUyLDAuMjgzCWMwLjAwOCwwLjA3MSwwLjAwMiwwLjE2LTAuMDIxLDAuMjY2Yy0wLjA0MiwwLjIzLTAuMjE5LDAuOTk2LTAuMjEsMS4xNTRjMC4wMDYsMC4xMzgsMC4wODYsMC4zMjgsMC4zMjYsMC4zMjgJYzAuMTksMCwwLjg5LTAuMzc4LDEuNTM4LTAuOTU4YzAuMjAzLTEuMDUxLDAuNDU0LTIuMzUxLDAuNDc0LTIuNDU0YzAuMDc5LTAuNDI2LDAuMjMyLTAuODY1LDEuMDk2LTAuODY1CWMwLjE3NywwLDAuMzExLDAuMDg4LDAuMzM3LDAuMzAxYzAuMDA4LDAuMDcsMC4wMDIsMC4xNi0wLjAyMSwwLjI2NmwtMC4yNDIsMS4wOTNjMC43NTgtMS4wMSwxLjkzNi0xLjc1MiwyLjY0Mi0xLjc1MgljMC4zLDAsMC41MzEsMC4xNTgsMC41NywwLjQ3OGMwLjAyMiwwLjE3OC0wLjAzLDAuNDc4LTAuMTQ3LDAuODE0Yy0wLjI1MSwwLjY5LTAuNTMzLDEuNzI3LTAuNzIsMi42MgljLTAuMDQsMC4xOSwwLjAyNiwwLjQ3NiwwLjM3MywwLjQ3NmMwLjI3NywwLDEuMTY2LTAuMzM5LDEuODg1LTEuMjg4Yy0wLjAwNS0wLjEzNC0wLjAwNy0wLjI3LTAuMDA3LTAuNDA4CWMwLTAuNzQ0LDAuMDUzLTEuMzQ2LDAuMTk0LTEuNzg3YzAuMTQxLTAuNDYxLDAuNzIzLTAuOTAyLDEuMTEtMC45MDJjMC4xOTQsMCwwLjMzNSwwLjEwNiwwLjMzNSwwLjMxOAljMCwwLjA3MS0wLjAxOCwwLjE2LTAuMDUzLDAuMjQ4Yy0wLjI2NCwwLjc3OS0wLjQwNSwxLjUwNi0wLjQwNSwyLjIzMWMwLDAuNDA3LDAuMDg4LDEuMDYyLDAuMTc3LDEuMzk4CWMwLjAxOCwwLjA3MSwwLjAzNCwwLjE0MiwwLjEwNSwwLjE0MmMwLjEyMywwLDAuOTUyLTAuODE0LDEuNTUxLTEuODA2Yy0wLjUzLTAuMzM3LTAuODI5LTAuOTU2LTAuODI5LTEuNzE4CWMwLTEuMjc0LDAuNzU4LTEuOTMsMS40OTgtMS45M2MwLjU4MiwwLDEuMTEsMC40MjUsMS4xMSwxLjI3NGMwLDAuNTMyLTAuMjEyLDEuMTM0LTAuNTEsMS43MThjMCwwLDAuMTIzLDAuMDE4LDAuMTc2LDAuMDE4CWMwLjQ1OCwwLDAuODExLTAuMjEzLDEuMDA2LTAuNDQzYzAuMDg4LTAuMSwwLjE3LTAuMTc4LDAuMjQ4LTAuMjI0YzAuNTktMC43MTMsMS40NTUtMS4yMjgsMi40Ny0xLjIyOAljMC44NjQsMCwxLjYxLDAuMzM3LDEuNjk2LDEuMDQ1YzAuMTEsMC45MDItMC42NjEsMS4wOC0wLjkyNiwxLjA4Yy0wLjI2NCwwLTAuNjYxLTAuMDcxLTAuNjg5LTAuMzAxczAuNTUxLTAuMTA2LDAuNDg0LTAuNjU0CWMtMC4wNDMtMC4zNTQtMC40MTMtMC40OTYtMC43NjYtMC40OTZjLTEuMTgyLDAtMS45OTQsMS41NzYtMS44MzgsMi44NWMwLjA2MiwwLjUxNCwwLjI5OSwxLjAxLDAuNzU4LDEuMDEJYzAuMzcsMCwwLjkyMy0wLjUzMiwxLjEyNy0xLjMxYzAuMTMxLTAuNTE0LDAuNjMyLTAuODg1LDEuMDAyLTAuODg1YzAuMTc2LDAsMC4zMjgsMC4wODgsMC4zNTQsMC4zMDEJYzAuMDEzLDAuMTA2LTAuMDMsMC4zMzctMC4yMjcsMS4xNjhjLTAuMDgxLDAuMzU0LTAuMDk3LDAuNjU1LTAuMDY2LDAuOTAzYzAuMDYzLDAuNTE0LDAuMjk4LDAuODUsMC41MTYsMS4wNDUJYzAuMDc5LDAuMDcsMC4xMjYsMC4xNTgsMC4xMzIsMC4yMTNjMC4wMTcsMC4xNDItMC4wOTEsMC4yNjYtMC4yNjcsMC4yNjZjLTAuMDUzLDAtMC4xMjMsMC0wLjE4MS0wLjAzNQljLTAuOTA4LTAuMzcyLTEuMjg1LTAuOTkxLTEuMzkxLTEuNTc2Yy0wLjM1LDAuNDQyLTAuODE0LDAuNjktMS4yOSwwLjY5Yy0wLjgxMSwwLTEuNjAzLTAuNzA5LTEuNzE1LTEuNjI5CWMtMC4wNDYtMC4zNzgtMC4wMDEtMC43ODUsMC4xMjMtMS4xODRjLTAuMzI5LDAuMjAzLTAuNjgzLDAuMzE2LTEuMDAxLDAuMzE2Yy0wLjEwNiwwLTAuMTk0LDAtMC4yOTktMC4wMTgJYy0wLjc5MywxLjE1LTEuNjIyLDEuOTQ3LTIuMjU3LDIuMzAyYy0wLjI2NCwwLjE0Mi0wLjUxLDAuMjEzLTAuNjg3LDAuMjEzYy0wLjE0MiwwLTAuMy0wLjAzNS0wLjM3LTAuMTU5CUMyOS4zNjcsMjcuOTEsMjkuMjU4LDI3LjQ3NCwyOS4xOTQsMjYuOTYyTDI5LjE5NCwyNi45NjJ6IE0zMi4wNjcsMjMuMTkxYzAsMC40OTYsMC4yNDYsMS4wMSwwLjU2NCwxLjM0NgljMC4xMjQtMC4zMzcsMC4xOTQtMC42NzMsMC4xOTQtMS4wMWMwLTAuNjM4LTAuMjQ3LTAuOTIxLTAuNDQxLTAuOTIxQzMyLjE1NSwyMi42MDYsMzIuMDY3LDIyLjkyNiwzMi4wNjcsMjMuMTkxeiIgY2xpcC1ydWxlPSJldmVub2RkIj48L3BhdGg+Cjwvc3ZnPg=="/>
+                        </div>
+    
+                    </div>
+    
+                    <div id="code" class="grid-container">
+                        <div id="about-title" class="box">
+                            <h2>Code</h2></div>
+                        <div id="html" class="code box">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNFNjUxMDAiIGQ9Ik00MSw1SDdsMywzNGwxNCw0bDE0LTRMNDEsNUw0MSw1eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNGRjZEMDAiIGQ9Ik0yNCA4TDI0IDM5LjkgMzUuMiAzNi43IDM3LjcgOHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMjQsMjV2LTRoOC42bC0wLjcsMTEuNUwyNCwzNS4xdi00LjJsNC4xLTEuNGwwLjMtNC41SDI0eiBNMzIuOSwxN2wwLjMtNEgyNHY0SDMyLjl6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0VFRSIgZD0iTTI0LDMwLjl2NC4ybC03LjktMi42TDE1LjcsMjdoNGwwLjIsMi41TDI0LDMwLjl6IE0xOS4xLDE3SDI0di00aC05LjFsMC43LDEySDI0di00aC00LjZMMTkuMSwxN3oiPjwvcGF0aD4KPC9zdmc+"/>
+                        </div>
+                        <div id="css" class="code box">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGwtb3BhY2l0eT0iMCIgZmlsbD0iI2RkZGRkZCIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMjU2di0yNTZoMjU2djI1NnoiIGlkPSJiZ1JlY3RhbmdsZSI+PC9wYXRoPjwvZz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48ZyB0cmFuc2Zvcm09InNjYWxlKDUuMzMzMzMsNS4zMzMzMykiPjxwYXRoIGQ9Ik00MSw1aC0zNGwzLDM0bDE0LDRsMTQsLTRsMywtMzR6IiBmaWxsPSIjMDI3N2JkIj48L3BhdGg+PHBhdGggZD0iTTI0LDh2MzEuOWwxMS4yLC0zLjJsMi41LC0yOC43eiIgZmlsbD0iIzAzOWJlNSI+PC9wYXRoPjxwYXRoIGQ9Ik0zMy4xLDEzaC05LjF2NGg0LjlsLTAuMyw0aC00LjZ2NGg0LjRsLTAuMyw0LjVsLTQuMSwxLjR2NC4ybDcuOSwtMi42bDAuNywtMTEuNXYweiIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjxwYXRoIGQ9Ik0yNCwxM3Y0aC04LjlsLTAuMywtNHpNMTkuNCwyMWwwLjIsNGg0LjR2LTR6TTE5LjgsMjdoLTRsMC4zLDUuNWw3LjksMi42di00LjJsLTQuMSwtMS40eiIgZmlsbD0iI2VlZWVlZSI+PC9wYXRoPjwvZz48L2c+Cjwvc3ZnPg=="/>
+                        </div>
+                        <div id="js" class="code box">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNmN2RmMWUiIGQ9Ik02LDQyVjZoMzZ2MzZINnoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDAwMDAxIiBkPSJNMjkuNTM4LDMyLjk0N2MwLjY5MiwxLjEyNCwxLjQ0NCwyLjIwMSwzLjAzNywyLjIwMWMxLjMzOCwwLDIuMDQtMC42NjUsMi4wNC0xLjU4NSBjMC0xLjEwMS0wLjcyNi0xLjQ5Mi0yLjE5OC0yLjEzM2wtMC44MDctMC4zNDRjLTIuMzI5LTAuOTg4LTMuODc4LTIuMjI2LTMuODc4LTQuODQxYzAtMi40MSwxLjg0NS00LjI0NCw0LjcyOC00LjI0NCBjMi4wNTMsMCwzLjUyOCwwLjcxMSw0LjU5MiwyLjU3M2wtMi41MTQsMS42MDdjLTAuNTUzLTAuOTg4LTEuMTUxLTEuMzc3LTIuMDc4LTEuMzc3Yy0wLjk0NiwwLTEuNTQ1LDAuNTk3LTEuNTQ1LDEuMzc3IGMwLDAuOTY0LDAuNiwxLjM1NCwxLjk4NSwxLjk1MWwwLjgwNywwLjM0NEMzNi40NTIsMjkuNjQ1LDM4LDMwLjgzOSwzOCwzMy41MjNDMzgsMzYuNDE1LDM1LjcxNiwzOCwzMi42NSwzOCBjLTIuOTk5LDAtNC43MDItMS41MDUtNS42NS0zLjM2OEwyOS41MzgsMzIuOTQ3eiBNMTcuOTUyLDMzLjAyOWMwLjUwNiwwLjkwNiwxLjI3NSwxLjYwMywyLjM4MSwxLjYwMyBjMS4wNTgsMCwxLjY2Ny0wLjQxOCwxLjY2Ny0yLjA0M1YyMmgzLjMzM3YxMS4xMDFjMCwzLjM2Ny0xLjk1Myw0Ljg5OS00LjgwNSw0Ljg5OWMtMi41NzcsMC00LjQzNy0xLjc0Ni01LjE5NS0zLjM2OCBMMTcuOTUyLDMzLjAyOXoiPjwvcGF0aD4KPC9zdmc+"/>
+                        </div>    
+                        <div id="node" class=" code">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIHRyYW5zZm9ybT0iIj48ZyBmaWxsLW9wYWNpdHk9IjAiIGZpbGw9IiNkZGRkZGQiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDI1NnYtMjU2aDI1NnYyNTZ6IiBpZD0iYmdSZWN0YW5nbGUiPjwvcGF0aD48L2c+PGcgZmlsbD0iIzIxYTM2NiIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PGcgdHJhbnNmb3JtPSJzY2FsZSg1LjMzMzMzLDUuMzMzMzMpIj48cGF0aCBkPSJNMjQuMDA3LDQ1LjQxOWMtMC41NzQsMCAtMS4xNDMsLTAuMTUgLTEuNjQ2LC0wLjQ0bC01LjI0LC0zLjEwM2MtMC43ODMsLTAuNDM4IC0wLjQwMSwtMC41OTMgLTAuMTQzLC0wLjY4MmMxLjA0NCwtMC4zNjUgMS4yNTUsLTAuNDQ4IDIuMzY5LC0xLjA4MWMwLjExNywtMC4wNjcgMC4yNywtMC4wNDMgMC4zOSwwLjAyOGw0LjAyNiwyLjM4OWMwLjE0NSwwLjA3OSAwLjM1MiwwLjA3OSAwLjQ4NiwwbDE1LjY5NywtOS4wNjFjMC4xNDUsLTAuMDgzIDAuMjQsLTAuMjUxIDAuMjQsLTAuNDI0di0xOC4xMTNjMCwtMC4xODEgLTAuMDk0LC0wLjM0MiAtMC4yNDMsLTAuNDMybC0xNS42OSwtOS4wNTRjLTAuMTQ1LC0wLjA4NiAtMC4zMzgsLTAuMDg2IC0wLjQ4MywwbC0xNS42ODgsOS4wNTNjLTAuMTUyLDAuMDg2IC0wLjI0OSwwLjI1NSAtMC4yNDksMC40Mjh2MTguMTE0YzAsMC4xNzMgMC4wOTQsMC4zMzggMC4yNDQsMC40Mmw0LjI5OSwyLjQ4M2MyLjMzNCwxLjE2NyAzLjc2LC0wLjIwOCAzLjc2LC0xLjU5MXYtMTcuODc3YzAsLTAuMjU1IDAuMiwtMC40NTIgMC40NTYsLTAuNDUyaDEuOTg4YzAuMjQ4LDAgMC40NTIsMC4xOTYgMC40NTIsMC40NTJ2MTcuODg2YzAsMy4xMTIgLTEuNjk3LDQuOSAtNC42NDgsNC45Yy0wLjkwOCwwIC0xLjYyMywwIC0zLjYxOSwtMC45ODJsLTQuMTE4LC0yLjM3M2MtMS4wMTgsLTAuNTkgLTEuNjQ3LC0xLjY5MSAtMS42NDcsLTIuODY1di0xOC4xMTRjMCwtMS4xNzkgMC42MjksLTIuMjc5IDEuNjQ2LC0yLjg2MWwxNS43MTQsLTkuMDY1YzAuOTk0LC0wLjU2MiAyLjMxNCwtMC41NjIgMy4zMDEsMGwxNS42OTQsOS4wNjljMS4wMTIsMC41ODUgMS42NDUsMS42ODIgMS42NDUsMi44NjF2MTguMTE0YzAsMS4xNzUgLTAuNjMzLDIuMjcxIC0xLjY0NiwyLjg2MWwtMTUuNjk0LDkuMDY0Yy0wLjUwMywwLjI5MSAtMS4wNzMsMC40NCAtMS42NTQsMC40NCI+PC9wYXRoPjxwYXRoIGQ9Ik0yOC44NTYsMzIuOTM3Yy02Ljg2OCwwIC04LjMwOCwtMy4xNTMgLTguMzA4LC01Ljc5N2MwLC0wLjI1MSAwLjIwMywtMC40NTIgMC40NTUsLTAuNDUyaDIuMDI4YzAuMjI0LDAgMC40MTMsMC4xNjMgMC40NDgsMC4zODRjMC4zMDYsMi4wNjYgMS4yMTgsMy4xMDggNS4zNzEsMy4xMDhjMy4zMDgsMCA0LjcxNSwtMC43NDcgNC43MTUsLTIuNTAyYzAsLTEuMDEgLTAuNDAxLC0xLjc2IC01LjU0LC0yLjI2M2MtNC4yOTksLTAuNDI0IC02Ljk1NSwtMS4zNzEgLTYuOTU1LC00LjgwOWMwLC0zLjE2NyAyLjY3MiwtNS4wNTMgNy4xNDcsLTUuMDUzYzUuMDI2LDAgNy41MTcsMS43NDUgNy44MzEsNS40OTNjMC4wMTIsMC4xMyAtMC4wMzUsMC4yNTUgLTAuMTIyLDAuMzVjLTAuMDg2LDAuMDkgLTAuMjA4LDAuMTQ1IC0wLjMzNCwwLjE0NWgtMi4wMzljLTAuMjEyLDAgLTAuMzk3LC0wLjE0OSAtMC40NCwtMC4zNTRjLTAuNDkxLC0yLjE3MyAtMS42NzgsLTIuODY4IC00LjkwNCwtMi44NjhjLTMuNjExLDAgLTQuMDMxLDEuMjU3IC00LjAzMSwyLjJjMCwxLjE0MyAwLjQ5NSwxLjQ3NyA1LjM2NywyLjEyMmM0LjgyNSwwLjY0IDcuMTE2LDEuNTQ0IDcuMTE2LDQuOTM1YzAsMy40MTggLTIuODUzLDUuMzc5IC03LjgyNyw1LjM3OSI+PC9wYXRoPjwvZz48L2c+PC9nPgo8L3N2Zz4="/>
+                        </div>
+                        <div id="codepen" class="code box">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCI+CjxsaW5lYXJHcmFkaWVudCBpZD0iZjZ5SWViTXVTcktaX3NEclh6UjFNYV9yQVZ4TFdVNWpaQmJfZ3IxIiB4MT0iMTUuODExIiB4Mj0iMzEuNjIxIiB5MT0iMS41MDIiIHkyPSI0NC45MzkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM4ODkwOTciPjwvc3RvcD48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0YzU5NjMiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxwYXRoIGZpbGw9InVybCgjZjZ5SWViTXVTcktaX3NEclh6UjFNYV9yQVZ4TFdVNWpaQmJfZ3IxKSIgZD0iTTIyLjkxMyw1LjMwNGwtMTcsMTEuMDA1QzUuMzQ0LDE2LjY3Nyw1LDE3LjMwOSw1LDE3Ljk4OHYxMi4wMjQJYzAsMC42NzgsMC4zNDQsMS4zMSwwLjkxMywxLjY3OWwxNywxMS4wMDVjMC42NjEsMC40MjgsMS41MTIsMC40MjgsMi4xNzQsMGwxNy0xMS4wMDVDNDIuNjU2LDMxLjMyMyw0MywzMC42OSw0MywzMC4wMTJWMTcuOTg4CWMwLTAuNjc4LTAuMzQ0LTEuMzEtMC45MTMtMS42NzlsLTE3LTExLjAwNUMyNC40MjYsNC44NzUsMjMuNTc0LDQuODc1LDIyLjkxMyw1LjMwNHogTTIzLjQyMiwyNy4xOWwtMy4yNTQtMi4zMDcJYy0wLjU2Ni0wLjQwMS0wLjU2MS0xLjI0MywwLjAwOS0xLjYzOGwzLjI1NC0yLjI1MWMwLjM0Mi0wLjIzNywwLjc5Ni0wLjIzNywxLjEzOCwwbDMuMjU0LDIuMjUxCWMwLjU3MSwwLjM5NSwwLjU3NiwxLjIzNywwLjAwOSwxLjYzOGwtMy4yNTQsMi4zMDdDMjQuMjMyLDI3LjQzNiwyMy43NjgsMjcuNDM2LDIzLjQyMiwyNy4xOXogTTI2LDE2LjY3di00LjEzOQljMC0wLjc5MiwwLjg3OC0xLjI3LDEuNTQzLTAuODRsOC42NDQsNS41OWMwLjU5NCwwLjM4NCwwLjYxMiwxLjI0NywwLjAzNSwxLjY1NmwtMy4yNSwyLjMwNGMtMC4zNDQsMC4yNDQtMC44MDQsMC4yNDYtMS4xNSwwLjAwNQlsLTUuMzkzLTMuNzU1QzI2LjE2LDE3LjMwNCwyNiwxNi45OTcsMjYsMTYuNjd6IE0yMS41NzEsMTcuNDkxbC01LjM5MywzLjc1NWMtMC4zNDYsMC4yNDEtMC44MDYsMC4yMzktMS4xNS0wLjAwNWwtMy4yNS0yLjMwNAljLTAuNTc3LTAuNDA5LTAuNTU5LTEuMjcxLDAuMDM1LTEuNjU2bDguNjQ0LTUuNTljMC42NjUtMC40MywxLjU0MywwLjA0NywxLjU0MywwLjg0djQuMTM5QzIyLDE2Ljk5NywyMS44NCwxNy4zMDQsMjEuNTcxLDE3LjQ5MXogTTExLjU1MiwyNC40NjZsLTEuNzY2LDEuMjI5QzkuNDU0LDI1LjkyNiw5LDI1LjY4OSw5LDI1LjI4NXYtMi40NzFjMC0wLjQwNSwwLjQ1Ni0wLjY0MiwwLjc4OC0wLjQwOWwxLjc2NiwxLjI0MglDMTEuODM3LDIzLjg0NiwxMS44MzYsMjQuMjY3LDExLjU1MiwyNC40NjZ6IE0xNi4xMTIsMjYuODUzbDUuNDYzLDMuODQyQzIxLjg0MiwzMC44ODIsMjIsMzEuMTg3LDIyLDMxLjUxM3YzLjk1NwljMCwwLjc5Mi0wLjg3OCwxLjI3LTEuNTQzLDAuODRsLTguNjUtNS41OTRjLTAuNTk4LTAuMzg3LTAuNjEyLTEuMjU3LTAuMDI2LTEuNjYybDMuMTg3LTIuMjA1CUMxNS4zMTMsMjYuNjEsMTUuNzcsMjYuNjEyLDE2LjExMiwyNi44NTN6IE0yNi40MjUsMzAuNjk1bDUuNDYzLTMuODQyYzAuMzQzLTAuMjQxLDAuOC0wLjI0MywxLjE0NC0wLjAwNGwzLjE4NywyLjIwNQljMC41ODYsMC40MDUsMC41NzIsMS4yNzUtMC4wMjYsMS42NjJsLTguNjUsNS41OTRDMjYuODc4LDM2LjczOSwyNiwzNi4yNjEsMjYsMzUuNDY5di0zLjk1N0MyNiwzMS4xODcsMjYuMTU4LDMwLjg4MiwyNi40MjUsMzAuNjk1CXogTTM2LjQ0NiwyMy42NDZsMS43NjYtMS4yNDJDMzguNTQ0LDIyLjE3MSwzOSwyMi40MDgsMzksMjIuODEzdjIuNDcxYzAsMC40MDQtMC40NTQsMC42NDEtMC43ODYsMC40MWwtMS43NjYtMS4yMjkJQzM2LjE2NCwyNC4yNjcsMzYuMTYzLDIzLjg0NiwzNi40NDYsMjMuNjQ2eiI+PC9wYXRoPgo8L3N2Zz4="/>
+                        </div>                
+                    </div>  
+                                
+                </div>
+                
+            </div>
+                
+            <!-------------------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------------->
+            <div class="footer">
+                <footer>
+                <h4>&copy;Loreanne Design</h4>
+                </footer>
+            </div>
+        </body>
+
+</html>
